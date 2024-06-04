@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    opacity: 0.95 !important;
+    background-color: #e6e2e2 !important;
+}
+.search-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px;
+}
+#student-portal{
+    background-color: black;
+    color: rgb(240, 239, 239);
+    padding: 15px 30px;
+}
+#search-bar{
+    border: 1px solid black;
+    padding: 10px 25px;
+    width: 75%;
+    outline: none;
+    background-color: #e6e2e2;
+    transition: box-shadow 0.3s ease-in-out;
+}
+input::placeholder {
+    color: black;
+    ; /* Change placeholder color here */
+}
+#search-bar:focus{
+    box-shadow: 0px 1px 2px gray;
+}
+#search-btn{
+    background-color: black !important;
+    width: 10%;
+    border-radius: 2px;
+    /* border: none; */
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 11px 0px;
+}
+.sort-btn{
+    background-color: black !important;
+    margin-top: 15px;
+    padding: 13px 0px !important;
+    width: 13%;
+    border-radius: 2px;
+    box-shadow: 0 0 0 gray;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.btn:hover{
+    box-shadow: 3px 2px 5px gray, -3px -2px 5px gray;
+}
+table {
+    width: 85%; 
+    border-collapse: collapse; 
+    border: 1px solid #1d1d1d;
+    border-radius: 8px;
+    margin: auto;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    /* margin-top: 30px;  */
+}
+th, td{
+    border: 1px solid #1d1d1d; /* Bottom border for cells */
+    padding: 10px;
+}
+
+.pad-1 {
+    width: 6%; /* Adjust width for ID column */
+}
+
+.pad-2 {
+    width: 28%; /* Adjust width for Name column */
+}
+
+.pad-3 {
+    width: 15%; 
+}
+
+.marginTopAndBottom{
+    margin-top: 2.2rem;
+    margin-bottom: 8rem;
+}
+
+
+
+/* th {
+    font-weight: bold; 
+} */
+
